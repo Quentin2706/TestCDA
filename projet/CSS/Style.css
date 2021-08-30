@@ -1,0 +1,58 @@
+/****  GENERAL ****/
+html, body {
+	margin : 0;
+	padding : 0;
+}
+
+div, header, footer, nav, article, input {
+	display : flex;
+	flex : 1;
+}
+
+img, video {
+	width : 100%;
+}
+
+.colonne {
+	flex-direction : column;
+}
+
+.titre {
+    flex: 7;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+header {
+    padding: 0.5em;
+}
+
+.centrer {
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton {
+    background-color: aqua;
+    border-radius: 0.2em;
+    border: 1px solid black;
+    padding: 0.2em;
+}
+
+.bouton > a {
+    text-decoration: none;
+    color:black;
+}
+
+.contenu {
+    padding: 0.2em;
+}
+
+.champs {
+    margin: 0.25em;
+}
+
+.spacearnd {
+    justify-content: space-around;
+}
