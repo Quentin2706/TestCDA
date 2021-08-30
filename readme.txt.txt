@@ -1,0 +1,1 @@
+J'ai mis le parametre.ini en clair dans le git pour te faciliter la tache mais sinon j'aurai fait un git ignore pour ne pas avoir acces aux infos de connexions je l'aurai aussi mis dans un autre dossier bien caché.
